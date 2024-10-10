@@ -21,7 +21,7 @@ const MainScreen = () => {
 
       <TouchableOpacity 
         style={styles.button} 
-        onPress={() => navigation.navigate('TodoApp')} >
+        onPress={() => navigation.navigate('TodoScreen')} >
         <Text style={styles.buttonText}>GET STARTED →</Text>
       </TouchableOpacity>
     </View>
